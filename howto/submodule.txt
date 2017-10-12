@@ -1,0 +1,12 @@
+# Import submodule
+git submodule add <remote>
+git commit -am "add submodule"
+
+
+# Clone repo containing submodule
+git clone --recursive <remote>
+
+
+# Update submodule
+// in submodule
+git pull
