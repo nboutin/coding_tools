@@ -10,3 +10,8 @@ git clone --recursive <remote>
 # Update submodule
 // in submodule
 git pull
+
+# Push modifcation done in submodule
+// in submodule
+git commit ...
+git push
