@@ -26,7 +26,7 @@ BraceWrapping:
         AfterNamespace: true
         AfterStruct: true
         AfterUnion: true
-        AfterExternBlock: true
+# v6.0        AfterExternBlock: true
         BeforeCatch: true
         BeforeElse: true
         SplitEmptyFunction: false
@@ -44,7 +44,7 @@ ConstructorInitializerAllOnOneLineOrOnePerLine: true
 Cpp11BracedListStyle: true
 FixNamespaceComments: false
 IndentCaseLabels: false
-IndentPPDirectives: AfterHash
+# v6.0 IndentPPDirectives: AfterHash
 IndentWidth: 4
 IndentWrappedFunctionNames: false
 KeepEmptyLinesAtTheStartOfBlocks: false
