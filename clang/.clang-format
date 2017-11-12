@@ -33,7 +33,7 @@ BraceWrapping:
         SplitEmptyRecord: false
         SplitEmptyNamespace: false
 BreakBeforeBinaryOperators: NonAssignment
-# BreakBeforeBraces:
+BreakBeforeBraces: Custom
 BreakBeforeInheritanceComma: false
 BreakBeforeTernaryOperators: false
 BreakConstructorInitializers: BeforeComma
