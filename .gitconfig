@@ -1,0 +1,10 @@
+[alias]
+	st = status -sb
+	br = branch
+	co = checkout
+	lg = log --oneline --decorate --graph
+[user]
+	email = boutwork@gmail.com
+	name = nboutin
+[credential]
+	helper = cache --timeout 30000
