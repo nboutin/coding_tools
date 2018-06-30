@@ -1,10 +1,32 @@
-[alias]
-	st = status -sb
-	br = branch
-	co = checkout
-	lg = log --oneline --decorate --graph
+[color]
+    ui = auto
+[credential]
+    helper = cache --timeout=28800
 [user]
 	email = boutwork@gmail.com
 	name = nboutin
-[credential]
-	helper = cache --timeout 30000
+[push]
+    default = simple
+[alias]
+    st = status -sb
+    lg = log --oneline --decorate --graph -25 --all
+    co = checkout
+    br = branch
+    su = submodule update --init --recursive
+    dt = difftool
+    mt = mergetool
+[status]
+    submoduleSummary = true
+[diff]
+    tool = bc3
+[difftool]
+    prompt = false
+[difftool "bc3"]
+    trustExitCode = true
+[merge]
+    tool = bc3
+[mergetool]
+  prompt = false
+[mergetool "bc3"]
+    trustExitCode = true
+    
